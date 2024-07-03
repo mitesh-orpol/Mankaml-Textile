@@ -927,7 +927,37 @@ body {
   font-size: 50px;
   font-weight: 700;
   margin-top: 20px;
-} /* ===============================================
+}
+
+
+.slick-slider {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+
+
+.slick-slide {
+  margin: 0 25px;
+}
+
+.slick-center .slick-slide {
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+.slick-prev, .slick-next {
+  z-index: 3;
+}
+/* ===============================================
     14.Testimonial
 ------------------------*/
 .testimonials {
@@ -1702,23 +1732,25 @@ body {
 .sec-line {
   padding-top: 22px;
 }
-.product-item .img-desc {
+
+.img-desc {
+  padding: 20px;
   position: absolute;
   top: 0;
-  padding: 32px;
-  transition: 0.5s ease;
-  opacity: 0;
-  transform: translate(0%, 0%);
-  -ms-transform: translate(0%, 0%);
-}
-
-.product-item .img-desc:hover {
-  opacity: 1;
-  background-color: #000000b4;
+  left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 12px;
+
+  background-color: rgba(0, 0, 0, 0.7); 
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
 }
+.img-section:hover .img-desc {
+  opacity: 1;
+}
+
 .product-item .img-desc h1 {
   font-weight: 700;
   margin: 0;
