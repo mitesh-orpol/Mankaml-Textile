@@ -1,0 +1,1814 @@
+@media screen and (max-width: 1399px) and (min-width: 1200px) {
+    .home_about h5{
+        margin-top: 0;
+    }
+    .home_about p{
+        margin-top: 15px;
+    }
+    .home_about ul{
+        margin-top: 20px !important;
+    }
+    .home_about ul li {
+        margin-bottom: 20px !important;
+    }
+    .home_about .aboot-client{
+        padding: 15px;
+    }
+    .home_get_info p{
+        margin-top: 15px;
+    }
+    .home_get_info .exp{
+        margin-top: 15px;
+    }
+
+    /* -- ---------------------------  About page -- ------------------------------ */
+    .about-page-sec-about h1{
+        font-size: 37px;
+    }
+    .about-page-sec-about p{
+        font-size: 17px;
+    }
+    .about-page-sec-about .num_ab .member .number-exp h5{
+        font-size: 17px;
+    }
+    .get-info .get-info-desc p{
+        padding: 0 100px;
+    }
+    .building-future h1{
+        font-size: 40px;
+    }
+    .building-future p{
+        font-size: 17px;
+    }
+    .building-future .true-mark{
+        padding-top: 22px;
+    }
+    /* -- ---------------------------  About page  end-- ------------------------------ */
+
+    /* -- ---------------------------  product page start -- ------------------------------ */
+    .product-item .inner-desc {
+        padding-top: 9%;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1025px){
+    .home_about .col-lg-1{
+        display: none;
+    }
+    .home_about h5{
+        margin-top: 0;
+    }
+    .home_about h1{
+        font-size: 40px;
+    }
+    .home_about p {
+        margin-top: 15px;
+        font-size: 16px;
+    }
+    .home_about ul{
+        margin-top: 20px !important;
+    }
+    .home_about ul li {
+        margin-bottom: 20px !important;
+        font-size: 15px;
+    }
+    .home_about .btn-about{
+        display: none;
+    }
+    .home_about .aboot-client{
+        padding: 7px;
+    }
+    .get-info-box .box{
+        padding: 20px;
+    }
+    .home_get_info h1{
+        font-size: 40px;
+    }
+    .home_get_info .in-te {
+        margin-top: 15px;
+        gap: 20px;
+    }
+    .home_get_info .in-te h6{
+        font-size: 21px;
+    }
+    .home_get_info p {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .home_get_info .exp{
+        margin-top: 10px;
+    }
+    .work_home h6{
+        font-size: 20px;
+    }
+    .work_home p{
+        font-size: 15px;
+    }
+    .we_home .work h1 {
+        margin-top: 10px;
+        font-size: 40px;
+    }
+    .we_home .work p {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .expo_home .fea .fe-left h1{
+        font-size: 38px;
+    }
+    .expo_home .morder .mo{
+        gap: 10px;
+    }
+    .expo-inde .home_contact .con-us .pnone{
+        display: block;
+    }   
+    .we-work h1{
+        font-size: 34px;
+    }
+    .we-work p{
+        font-size: 14px;
+    }
+    .we-work .first-icon {
+        margin-top: 10px;
+    }
+    .we-work .first-icon p{
+        font-size: 14px;
+    }
+    .we-work .inner-img h2 {
+        top: 62%;
+        left: 10%;
+        padding-left: 29px;
+        font-size: 36px;
+    }
+
+
+
+    /* -- ------------------------- about page -- ------------------------------ */
+    .about-page{
+        padding: 180px 0px;
+    }
+    .about-page-sec-about .custom-hr {
+        width: 17%;
+    }
+    .about-page-sec-about h1{
+        font-size: 31px;
+    }
+    .about-page-sec-about p{
+        font-size: 16px;
+    }
+    .about-page-sec-about .num_ab {
+        margin-top: 10px;
+    }
+    .about-page-sec-about .num_ab .member {
+        gap: 10px;
+    }
+    .about-page-sec-about .num_ab .member .number-exp h2{
+        font-size: 40px;
+    }
+    .about-page-sec-about .num_ab .member .img_i img{
+        padding: 14px;
+    }
+    .about-page-sec-about .num_ab .member .number-exp h5{
+        font-size: 15px;
+    }
+    .get-info .get-info-desc p{
+        padding: 0;
+    }
+    .vision-mission .col-lg-1{
+        display: none;
+    }
+    .vision-mission .vision-mission-desc h1 {
+        font-size: 35px;
+        margin-top: 7px;
+    }
+    .vision-mission .vision-mission-desc p{
+        font-size: 16px;
+    }
+    .vision-mission .vision-desc h1 {
+        margin-top: 10px;
+        font-size: 35px;
+    }
+    .vision-mission .vision-desc{
+        font-size: 14px;
+    }
+    .vision-mission button{
+        display: none;
+    }
+    .global-player{
+        padding: 60px 0px;
+    }
+    .building-future .custom-hr {
+        width: 44%;
+    }
+    .building-future h1{
+        font-size: 31px;
+    }
+    .building-future p{
+        font-size: 15px;
+    }
+    .building-future .true-mark{
+        padding-top: 10px;
+    }
+    .building-future .sqaure-desc{
+        padding: 10px;
+        top: 43%;
+        left: -16%;
+    }
+
+    /* -- ------------------------- about page  end -- ------------------------------ */
+
+    /* -- ---------------------------  product page start -- ------------------------------ */
+    .product-item .inner-desc {
+        padding-top: 10%;
+    }
+    .product-item .img-desc h1{
+        font-size: 56px;
+    }
+    .product-item .img-desc p {
+        font-size: 16px;
+    }
+    .product-item .img-desc button {
+        padding: 6px 15px;
+        margin-top: 10px;
+    }
+
+
+    /* -- ------------------------- contact page -- ------------------------- */
+    .contact-get .box{
+        width: auto;
+    }
+    .news-lat .latter{
+        padding: 0px;
+    }
+    /* ------------------------- contact page end ----------------------- */
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 992px){
+    .home_about .col-lg-1{
+        display: none;
+    }
+    .home_about h5{
+        margin-top: 0;
+    }
+    .home_about h1{
+        font-size: 40px;
+    }
+    .home_about p {
+        margin-top: 15px;
+        font-size: 16px;
+    }
+    .home_about ul{
+        margin-top: 20px !important;
+    }
+    .home_about ul li {
+        margin-bottom: 20px !important;
+        font-size: 15px;
+    }
+    .home_about .btn-about{
+        display: none;
+    }
+    .home_about .aboot-client{
+        padding: 7px;
+    }
+    .get-info-box .box{
+        padding: 20px;
+    }
+    .home_get_info h1{
+        font-size: 40px;
+    }
+    .home_get_info .in-te {
+        margin-top: 15px;
+        gap: 20px;
+    }
+    .home_get_info .in-te h6{
+        font-size: 21px;
+    }
+    .home_get_info p {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .home_get_info .exp{
+        margin-top: 10px;
+    }
+    .work_home h6{
+        font-size: 20px;
+    }
+    .work_home p{
+        font-size: 15px;
+    }
+    .we_home .work h1 {
+        margin-top: 10px;
+        font-size: 40px;
+    }
+    .we_home .work p{
+        margin-top: 10px;
+    }
+    .we_home .work .weare {
+        margin-top: 10px;
+    }
+    .benefit-textile .vertical-line{
+        height: 65px;
+    }
+    .benefit-textile .main-bg{
+        padding: 10px 9px;
+    margin-bottom: 6px;
+    }
+    .benefit-textile .main-bg p{
+        margin-bottom: 0;
+    }
+    .expo_home .fea .fe-left h1{
+        font-size: 38px;
+    }
+    .expo_home .morder .mo{
+        gap: 10px;
+    }
+    .expo_home .morder .mo .mo-tex h3{
+        font-size: 24px;
+    }
+    .expo-inde .home_contact .con-us .pnone{
+        display: block;
+    }
+    .we-work h1 {
+        padding-right: 0px;
+        font-size: 39px;
+    }
+    .we-work p{
+        font-size: 14px;
+    }
+    .we-work .first-icon {
+        margin-top: 10px;
+    }
+    .we-work .first-icon p{
+        font-size: 14px;
+    }
+    .we-work .inner-img h2 {
+        top: 62%;
+        font-size: 36px;
+    }
+
+
+    /* -- --------------------------------- about page -- --------------------------------- */
+    .about-page{
+        padding: 160px 0px;
+    }
+    .about-page-sec-about h1{
+        font-size: 30px;
+    }
+    .about-page-sec-about p{
+        font-size: 15px;
+    }
+    .about-page-sec-about .num_ab {
+        margin-top: 0px;
+    }
+    .about-page-sec-about .num_ab .member {
+        gap: 10px;
+    }
+    .about-page-sec-about .num_ab .member .img_i img{
+        padding: 15px;
+    }
+    .about-page-sec-about .num_ab .member .number-exp h2{
+        font-size: 40px;
+    }
+    .about-page-sec-about .num_ab .member .number-exp h5{
+        font-size: 14px;
+    }
+    .get-info {
+        margin-top: 60px;
+    }
+    .get-info .get-info-desc p{
+        padding: 0;
+    }
+    .vision-mission .vision-mission-desc h1{
+        font-size: 31px;
+    }
+    .vision-mission .vision-mission-desc p{
+        font-size: 15px;
+    }
+    .vision-mission .vision-desc h1 {
+        margin-top: 5px;
+        font-size: 30px;
+    }
+    .vision-mission .vision-desc p{
+        font-size: 15px;
+    }
+    .vision-mission button{
+        display: none;
+    }
+    .building-future h1{
+        font-size: 30px;
+    }
+    .building-future p{
+        font-size: 15px;
+    }
+    .building-future .true-mark{
+        padding-top: 10px;
+    }
+    .building-future .sqaure-desc{
+        padding: 10px;
+        top: 40%;
+    }
+
+    /* ------------------------- about page end ------------------------- */
+
+
+    /* -- -------------------- product page start -- ----------------------- */
+
+    .product-item .img-desc h1 {
+        font-size: 45px;
+    }
+    .product-item .img-desc{
+        padding: 15px;
+    }
+    .product-item .img-desc p{
+        font-size: 18px;
+    }
+    .product-item .img-desc button {
+        padding: 7px 15px;
+        margin-top: 15px;
+    }
+    .product-item .inner-desc {
+        padding-top: 19%;
+    }
+
+    /* ------------------------- contact page start ----------------------- */
+    .contact-page{
+        padding: 170px 0;
+    }
+    .contact-get .box{
+        width: auto;
+    }
+    .news-lat .latter{
+        padding: 0px;
+    }
+    /* ------------------------- contact page end ----------------------- */
+
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    [type="button"]:not(:disabled) {
+        margin-right: 20px;
+      }
+      .main .small-header{
+        padding: 10px 15px;
+      }
+      .main .small-header .topbar{
+        gap: 35px;
+      }
+      .mankamal-header .contact-button{
+        display: none;
+      }
+      .home_about .col-lg-5{
+        width: 50%;
+      }
+      .home_about .col-lg-1{
+        display: none;
+      }
+      .home_about .col-lg-6{
+        width: 50%;
+      }
+      .home_about h5{
+        margin-top: 0;
+      }
+      .home_about .custom-hr {
+        width: 27%;
+    }
+    .home_about h1{
+        font-size: 27px;
+    }
+    .home_about p{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .home_about ul{
+        margin-top: 0;
+    }
+    .home_about ul li {
+        margin-bottom: 20px !important;
+        font-size: 13px;
+    }
+    .home_about ul li img{
+        margin-right: 6px;
+    }
+    .home_about .btn-about{
+        display: none;
+    }
+    .home_about .aboot-client{
+        padding: 1px;
+    }
+    .gert-infor .col-lg-3{
+        width: 25%;
+    }
+    .get-info-box .box{
+        padding: 10px;
+    }
+    .get-info-box .box h2{
+        font-size: 32px;
+    }
+    .get-info-box .box p{
+        font-size: 14px;
+    }
+    .get-info-box{
+        top: 72%;
+    }
+    .home_get_info {
+        margin-top: 100px;
+    }
+    .home_get_info .col-lg-6{
+        width: 50%;
+    }
+    .home_get_info .col-lg-5{
+        width: 50%;
+    }
+    .home_get_info .col-lg-1{
+        display: none;
+    }
+    .home_get_info .custom-hr {
+        width: 40%;
+    }
+    .home_get_info h1{
+        font-size: 30px;
+    }
+    .home_get_info .in-te {
+        margin-top: 14px;
+        gap: 18px;
+    }
+    .home_get_info .in-te h6{
+        font-size: 17px;
+    }
+    .home_get_info p{
+        font-size: 18px;
+        margin-top: 12px;
+    }
+    .home_get_info .exp{
+        display: none;
+    }
+    .three-box .col-lg-4{
+        width: 33%;
+    }
+    .three-box .box-bg{
+        padding: 10px;
+    }
+    .three-box .box-bg h5 {
+        font-size: 20px;
+    }
+    .work_home .col-lg-3{
+        width: 50%;
+    }
+    .we_home .col-lg-5{
+        width: 50%;
+    }
+    .we_home .col-lg-6{
+        width: 50%;
+    }
+    .we_home .col-lg-1{
+        display: none;
+    }
+    .we_home .how .h-img{
+        height: 70px;
+    }
+    .we_home .work h5{
+        font-size: 20px;
+    }
+    .we_home .work .custom-hr {
+        width: 36%;
+    }
+    .we_home .work h1{
+        font-size: 29px;
+    }
+    .we_home .work p{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .we_home .work .weare{
+        margin-top: 20px;
+    }
+    .we_home .work .weare h6{
+        font-size: 17px;
+    }
+    .benefit-textile .col-lg-6{
+        width: 50%;
+    }
+    .benefit-textile .col-lg-1{
+        /* width: 10%; */
+        display: none;
+    }
+    .benefit-textile .col-lg-5{
+        width: 50%;
+    }
+    .benefit-textile .main-bg {
+        padding: 6px 5px;
+        margin-bottom: 10px;
+    }
+    .expo_home .fea .fe-left h5 {
+        font-size: 20px;
+    }
+    .expo_home .fea .fe-left .custom-hr {
+        width: 26%;
+    }
+    .expo_home .fea .fe-left h1 {
+        margin-top: 10px;
+        font-size: 43px;
+    }
+    .expo_home .fea .fe-right p{
+        font-size: 20px;
+    }
+    .expo_home .morder .col-lg-3{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .expo_home .morder .mo{
+        gap: 20px;
+    }
+    .home_contact .col-lg-6{
+        width: 50%;
+    }
+    .expo-inde .home_contact .con-us h1{
+        font-size: 35px;
+    }
+    .home_contact .phone_number .col-lg-6{
+        width: 100%;
+    }
+    .home_contact .form .col-lg-6{
+        width: 100%;
+    }
+    .expo-inde .home_contact .con-us .form .form-control{
+        padding: 10px;
+    }
+    .footer .col-lg-3{
+        width: 50%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    /* -------------------------------- home page end -------------------------------- */
+
+
+    /* -- ------------------------------- about page start -- ------------------------------- */
+    .about-page{
+        padding: 140px 0px;
+    }
+    .about-page-sec-about {
+        margin-top: 50px;
+    }
+    .about-page-sec-about .col-lg-5{
+        width: 50%;
+    }
+    .about-page-sec-about .col-lg-6{
+        width: 50%;
+    }
+    .about-page-sec-about .col-lg-1{
+        display: none;
+    }
+    .about-page-sec-about .custom-hr {
+        width: 23%;
+    }
+    .about-page-sec-about h1{
+        font-size: 26px;
+    }
+    .about-page-sec-about p{
+        font-size: 14px;
+    }
+    .about-page-sec-about .num_ab .member{
+        gap: 5px;
+    }
+    .about-page-sec-about .num_ab .member .img_i img{
+        padding: 10px;
+    }
+    .about-page-sec-about .num_ab .member .number-exp h2{
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+    .about-page-sec-about .num_ab .member .number-exp h5{
+        font-size: 16px;
+    }
+    .get-info .get-info-desc .custom-hr{
+        width: 19%;
+    }
+    .get-info .get-info-desc h1{
+        font-size: 40px;
+    }
+    .get-info .get-info-desc p{
+        padding: 0;
+        font-size: 16px;
+    }
+    .get-info .col-lg-4{
+        width: 33%;
+    }
+    .get-info .box-bg{
+        padding: 0px 10px;
+        padding-top: 10px;
+    }
+
+
+    /* ------------------------- about page end ------------------------- */
+
+    
+    /* -- -------------------- product page start -- ----------------------- */
+    .product-page{
+        padding: 140px 0;
+    }
+    .product-item .col-lg-4{
+        width: 33%;
+        margin-top: 20px;
+    }
+    .product-item .img-desc{
+        padding: 10px;
+    }
+    .product-item .inner-desc {
+        padding-top: 5%;
+    }
+    .product-item .img-desc h1{
+        font-size: 35px;
+    }
+    .product-item .img-desc p{
+        font-size: 16px;
+    }
+    .product-item .img-desc button{
+        padding: 5px 10px;
+        margin-top: 10px;
+    }
+
+    /* ------------------------- contact page start ----------------------- */
+    .contact-page{
+        padding: 140px 0;
+    }
+    .map-start .col-lg-6{
+        width: 50%;
+    }
+    .inner-contact-us .loca{
+        width: 65px !important;
+    }
+    .inner-container .loca{
+        width: 65px !important;
+    }
+    
+    .inner-contact-us{
+        padding-top: 0;
+    }
+    .map-start .custom-hr {
+        width: 30%;
+    }
+    .inner-contact-second {
+        padding-top: 0px;
+        padding-right: 14px;
+    }
+    .contact-get .box .col-lg-6{
+        width: 50%;
+    }
+    .contact-get .box{
+        width: auto;
+    }
+    .contact-get .write{
+        padding: 20px;
+    }
+    .contact-get .write .icon i{
+        margin-right: 10px;
+    }
+    .news-lat .latter{
+        padding: 0px;
+    }
+    .news-lat .col-lg-6{
+        width: 50%;
+    }
+    .news-lat .latter h4{
+        font-size: 30px;
+    }
+    /* ------------------------- contact page end ----------------------- */
+
+
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 426px) {
+    [type="button"]:not(:disabled) {
+      margin-right: 20px;
+    }
+    .mankamal-header .contact-button{
+        display: none;
+      }
+    .main .small-header{
+        display: none;
+    }
+    .home_about .custom-hr {
+        width: 21%;
+    }
+    .home_about h1{
+        font-size: 35px;
+    }
+    .home_about p {
+        margin-top: 10px;
+        font-size: 17px;
+    }
+    .get_info{
+        padding: 20px 10px;
+    }
+    .get_info h1{
+        font-size: 35px;
+    }
+    .get_info p{
+        font-size: 16px;
+    }
+    .three-box .col-lg-4{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .three-box .box-bg{
+        padding: 10px;
+    }
+    .get_info .custom-hr {
+        width: 25%;
+    }
+    .get-info-box{
+        position: relative;
+    }
+    .get-info-box .col-lg-3{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .get-info-box .box{
+        padding: 15px;
+    }
+    .get-info-box .box h2 {
+        text-align: center;
+        font-size: 43px;
+        font-weight: 700;
+    }
+    .home_get_info{
+        margin-top: 60px;
+    }
+    .home_get_info .custom-hr {
+        width: 32%;
+    }
+    .home_get_info h1{
+        font-size: 35px;
+    }
+    .home_get_info .in-te {
+        margin-top: 15px;
+        gap: 15px;
+    }
+    .home_get_info .in-te h6{
+        font-size: 19px;
+    }
+    .home_get_info p {
+        font-size: 17px;
+        margin-top: 20px;
+    }
+    .home_get_info .exp{
+        font-size: 19px;
+    }
+    .home_get_info .col-lg-5{
+        margin-top: 30px;
+    }
+    .work_home .custom-hr{
+        width: 33%;
+    }
+    .work_home h1{
+        font-size: 40px;
+    }
+    .work_home .col-lg-3{
+        width: 50%;
+    }
+    .work_home .box h4{
+        right: 6%;
+    }
+    .work_home h6 {
+        margin-top: 35px;
+        font-size: 19px;
+    }
+    .work_home p{
+        font-size: 14px;
+    }
+    .we_home .work .custom-hr {
+        width: 34%;
+    }
+    .we_home .work h1{
+        font-size: 37px;
+    }
+    .benefit-textile h1{
+        font-size: 40px;
+    }
+    .benefit-textile .custom-hr {
+        width: 17%;
+    }
+    .benefit-textile .col-lg-1{
+        margin-top: 30px;
+        width: 20%;
+    }
+    .benefit-textile .col-lg-5{
+        margin-top: 30px;
+        width: 80%;
+    }
+    .expo_home{
+        padding: 25px;
+    }
+    .expo_home .fea .fe-left .custom-hr {
+        width: 50%;
+    }
+    .expo_home .fea .fe-left h1{
+        font-size: 40px;
+    }
+    .expo_home .morder {
+        margin-top: 15px;
+    }
+    .expo_home .morder .mo{
+        margin-top: 20px;
+        gap: 20px;
+    }
+    .expo_home .morder .mo .mo-tex h3 {
+        font-size: 23px;
+        margin-top: 12px;
+    }
+    .expo-inde .home_contact .con-us{
+        padding: 25px;
+    }
+    .expo-inde .home_contact{
+        margin-top: 0;
+    }
+    .expo-inde .home_contact .con-us .custom-hr {
+        width: 27%;
+    }
+    .expo-inde .home_contact .con-us h1{
+        font-size: 40px;
+    }
+    .we-work h1 {
+        padding-right: 0px;
+        font-size: 45px;
+    }
+    .we-work .inner-img h2 {
+        top: 62%;
+        left: 2%;
+        font-size: 33px;
+    }
+    .client h5{
+        font-size: 20px;
+    }
+    .client .custom-hr {
+        width: 38%;
+    }
+    .client h1{
+        font-size: 33px;
+    }
+    .testimonials.ttm-testimonial-box-view-style2 .testimonial-content blockquote{
+        margin-top: 30px;
+    }
+    .footer{
+        padding: 20px;
+    }
+    .footer .col-lg-3{
+        width: 50%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .footer h5 {
+        font-size: 21px;
+    }
+    .footer h4{
+        font-size: 18px;
+    }
+
+    /* -- ------------------------------------ about page -- ------------------------------------ */
+    .about-page {
+        padding: 130px 0px;
+    }
+    .about-page h1{
+        font-size: 60px;
+    }
+    .about-page-sec-about h1{
+        font-size: 34px;
+    }
+    .about-page-sec-about .num_ab .col-lg-6{
+        width: 50%;
+    }
+    .about-page-sec-about .num_ab .member{
+        gap: 10px;
+    }
+    .about-page-sec-about .num_ab .member .number-exp h2{
+        font-size: 40px;
+    }
+    .about-page-sec-about .num_ab .member .number-exp h5{
+        font-size: 17px;
+    }
+    .about-page-sec-about  .side-img{
+        margin-top: 20px;
+    }
+    .get-info {
+        margin-top: 50px;
+    }
+    .get-info .get-info-desc .custom-hr{
+        width: 26%;
+    }
+    .get-info .get-info-desc h1{
+        font-size: 34px;
+    }
+    .get-info .get-info-desc p{
+        padding: 0;
+        font-size: 16px;
+    }
+    .get-info .col-lg-4{
+        width: 50%;
+    }
+    .get-info .box-bg{
+        padding: 0px 10px;
+        padding-top: 10px;
+    }
+    .get-info .box-bg h5{
+        font-size: 22px;
+    }
+    .vision-mission .vision-mission-desc h1{
+        font-size: 34px;
+    }
+    .vision-mission .vision-mission-desc h5{
+        margin-top: 20px;
+    }
+    .global-player .global-box-border{
+        margin-top: 20px;
+    }
+    .building-future h1{
+        font-size: 33px;
+    }
+    .building-future .sqaure-desc{
+        left: 0%;
+    }
+
+    /* ------------------------- about page end ------------------------- */
+
+    /* ----------------------------- product page start ------------------------ */
+    .product-page{
+        padding: 130px 0;
+    }
+    .product-item .col-lg-4{
+        width: 50%;
+        margin-top: 25px;
+    }
+    .product-item .img-desc{
+        padding: 10px;
+    }
+    .product-item .img-desc h1{
+        font-size: 40px;
+    }
+    .product-item .img-desc p{
+        font-size: 14px;
+    }
+    .product-item .img-desc button{
+        padding: 5px 8px;
+        margin-top: 10px;
+    }
+    .product-item .inner-desc {
+        padding-top: 0%;
+    }
+
+    /* ------------------------- contact page start ----------------------- */
+    .contact-page{
+        padding: 130px 0;
+    }
+    .contact-get .box{
+        width: auto;
+        display: block;
+    }
+    .contact-get .write{
+        width: auto;
+        padding: 10px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 16px;
+    }
+    .contact-get .write .custom-hr {
+        width: 27%;
+    }
+    .contact-get .write h3{
+        font-size: 33px;
+    }
+    .contact-get .write .white-desc{
+        font-size: 15px;
+    }
+    .contact-get .write .icon i{
+        margin-right: 6px;
+    }
+    .news-lat .latter {
+        padding: 0px;
+    }
+    /* ------------------------- contact page end ----------------------- */
+
+}
+
+@media screen and (max-width: 425px) and (min-width: 376px) {
+    [type="button"]:not(:disabled) {
+      margin-right: 20px;
+    }
+    .mankamal-header .contact-button{
+        display: none;
+    }
+    .main .small-header{
+        display: none;
+    }
+    .home_about {
+        margin-top: 45px;
+    }
+    .home_about .custom-hr {
+        width: 21%;
+    }
+    .home_about h1{
+        font-size: 35px;
+    }
+    .home_about p {
+        margin-top: 10px;
+        font-size: 17px;
+    }
+    .get_info{
+        padding: 20px 10px;
+    }
+    .get_info h1{
+        font-size: 35px;
+    }
+    .get_info p{
+        font-size: 16px;
+    }
+    .get-info-box .box h2{
+        font-size: 43px;
+    }
+    .get-info-box{
+        position: relative;
+    }
+    .get-info-box .col-lg-3{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .get-info-box .box{
+        padding: 9px;
+    }
+    .home_get_info{
+        margin-top: 60px;
+    }
+    .home_get_info .custom-hr {
+        width: 32%;
+    }
+    .home_get_info h1{
+        font-size: 35px;
+    }
+    .home_get_info .in-te {
+        margin-top: 15px;
+        gap: 15px;
+    }
+    .home_get_info .in-te h6{
+        font-size: 19px;
+    }
+    .home_get_info p {
+        font-size: 17px;
+        margin-top: 20px;
+    }
+    .home_get_info .exp{
+        font-size: 19px;
+    }
+    .home_get_info .col-lg-5{
+        margin-top: 30px;
+    }
+    .three-box .col-lg-4{
+        margin-top: 20px;
+    }
+    .work_home .custom-hr{
+        width: 33%;
+    }
+    .work_home h1{
+        font-size: 40px;
+    }
+    .work_home .col-lg-3{
+        width: 50%;
+    }
+    .work_home .box h4{
+        right: 6%;
+    }
+    .work_home h6 {
+        margin-top: 35px;
+        font-size: 19px;
+    }
+    .work_home p{
+        font-size: 14px;
+    }
+    .we_home .work .custom-hr {
+        width: 34%;
+    }
+    .we_home .work h1{
+        font-size: 37px;
+    }
+    .benefit-textile .col-lg-1{
+        margin-top: 30px;
+        width: 20%;
+    }
+    .benefit-textile .custom-hr {
+        width: 18%;
+    }
+    .benefit-textile .col-lg-5{
+        margin-top: 30px;
+        width: 80%;
+    }
+    .benefit-textile .main-bg{
+        padding: 16px 10px;
+    }
+    .expo_home{
+        padding: 25px;
+    }
+    .expo_home .fea .fe-left .custom-hr {
+        width: 50%;
+    }
+    .expo_home .fea .fe-left h1{
+        font-size: 40px;
+    }
+    .expo_home .morder {
+        margin-top: 15px;
+    }
+    .expo_home .morder .mo{
+        margin-top: 20px;
+        gap: 20px;
+    }
+    .expo_home .morder .mo .mo-tex h3 {
+        font-size: 23px;
+        margin-top: 12px;
+    }
+    .expo-inde .home_contact .con-us{
+        padding: 25px;
+    }
+    .expo-inde .home_contact{
+        margin-top: 0;
+    }
+    .expo-inde .home_contact .con-us .custom-hr {
+        width: 27%;
+    }
+    .expo-inde .home_contact .con-us h1{
+        font-size: 40px;
+    }
+    .we-work .custom-hr {
+        width: 35%;
+    }
+    .we-work h1 {
+        margin-top: 10px;
+        padding-right: 0px;
+        font-weight: 700;
+        font-size: 39px;
+    }
+    .we-work .inner-img{
+        margin-top: 20px;
+    }
+    .we-work .inner-img h2 {
+        top: 60%;
+        left: 3%;
+        font-size: 34px;
+    }
+    .client h5{
+        font-size: 20px;
+    }
+    .client .custom-hr {
+        width: 38%;
+    }
+    .client h1{
+        font-size: 33px;
+    }
+    .testimonials.ttm-testimonial-box-view-style2 .testimonial-content blockquote{
+        margin-top: 30px;
+    }
+    .footer{
+        padding: 20px;
+    }
+    .footer .col-lg-2{
+        width: 50%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .footer h5 {
+        font-size: 21px;
+    }
+    .footer h4{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+
+    /* -- --------------------------- about page ----------------------------- -- */
+    .about-page{
+        padding: 110px 0px;
+    }
+    .about-page h1{
+        font-size: 51px;
+    }
+    .about-page-sec-about .custom-hr {
+        width: 20%;
+    }
+    .about-page-sec-about h1{
+        font-size: 30px;
+    }
+    .about-page-sec-about p{
+        font-size: 17px;
+        text-align: justify;
+    }
+    .about-page-sec-about .num_ab{
+        margin-top: 10px;
+    }
+    .about-page-sec-about .num_ab .col-lg-6{
+        margin-top: 20px;
+    }
+    .about-page-sec-about .side-img{
+        margin-top: 30px;
+    }
+    .get-info {
+        margin-top: 50px;
+    }
+    .get-info .get-info-desc .custom-hr{
+        width: 33%;
+    }
+    .get-info .get-info-desc h1{
+        font-size: 30px;
+    }
+    .get-info .get-info-desc p{
+        font-size: 17px;
+        padding: 0;
+        text-align: justify;
+    }
+    .vision-mission .vision-mission-desc h5{
+        margin-top: 30px;
+    }
+    .vision-mission .vision-mission-desc .custom-hr {
+        width: 33%;
+    }
+    .vision-mission .vision-mission-desc h1{
+        font-size: 30px
+    }
+    .global-player .global-desc .custom-hr {
+        width: 49%;
+    }
+    .global-player .global-box-border{
+        margin-top: 30px;
+    }
+    .building-future {
+        margin-top: 50px;
+    }
+    .building-future .custom-hr {
+        width: 50%;
+    }
+    .building-future h1{
+        font-size: 27px;
+    }
+    .building-future p{
+        font-size: 16px;
+    }
+    .building-future .sqaure-desc{
+        width: 60%;
+        top: 60%;
+        left: 12%;
+    }
+    .building-future .sqaure-desc .custom-hr {
+        width: 77%;
+    }
+
+    /* ------------------------- about page end ------------------------- */
+
+    /* ------------------------- product page start ------------------------ */
+    .product-page{
+        padding: 110px 0;
+    }
+    .product-page h1{
+        font-size: 50px;
+    }
+    .desc{
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .product-item .col-lg-4{    
+        margin-top: 25px;
+    }
+
+    /* ------------------------- product page end ------------------------- */
+
+    /* ------------------------- contact page start ----------------------- */
+    .contact-page{
+        padding: 110px 0;
+    }
+    .contact-page h1{
+        font-size: 60px;
+    }
+    .inner-contact-second{
+        padding-right: 0;
+    }
+    .inner-contact-us .loca{
+        width: 54px !important;
+    }
+    .inner-container .loca{
+        width: 54px !important;
+    }
+    
+    .contact-get .box{
+        width: auto;
+        display: block;
+    }
+    .contact-get .write{
+        width: auto;
+        padding: 10px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 16px;
+    }
+    .contact-get .write .custom-hr {
+        width: 27%;
+    }
+    .contact-get .write h3{
+        font-size: 33px;
+    }
+    .contact-get .write .white-desc{
+        font-size: 15px;
+    }
+    .contact-get .write .icon i{
+        margin-right: 6px;
+    }
+    .news-lat .latter {
+        padding: 0px;
+    }
+    .news-lat .latter .form-control{
+        padding: 15px;
+    }
+    .news-lat .latter button{
+        top: 17%;
+        right: 14px;
+    }
+    /* ------------------------- contact page end ----------------------- */
+
+}
+
+@media screen and (max-width: 375px) and (min-width: 300px) {
+    [type="button"]:not(:disabled) {
+      margin-right: 20px;
+    }
+    .main .small-header{
+        display: none;
+    }
+    .main .small-header{
+        display: none;
+    }
+    .mankamal-header .contact-button{
+        display: none;
+    }
+    .home_about {
+        margin-top: 45px;
+    }
+    .home_about .custom-hr {
+        width: 21%;
+    }
+    .home_about h1{
+        font-size: 30px;
+    }
+    .home_about p {
+        margin-top: 10px;
+        font-size: 17px;
+    }
+    .get_info{
+        padding: 20px 10px;
+    }
+    .get_info .custom-hr {
+        width: 37%;
+    }
+    .get_info h1{
+        font-size: 30px;
+    }
+    .get_info p{
+        font-size: 16px;
+    }
+    .get-info-box{
+        position: relative;
+    }
+    .get-info-box .col-lg-3{
+        margin-bottom: 20px;
+    }
+    .get-info-box .box{
+        padding: 9px;
+    }
+    .home_get_info{
+        margin-top: 60px;
+    }
+    .home_get_info .custom-hr {
+        width: 32%;
+    }
+    .home_get_info h1{
+        font-size: 30px;
+    }
+    .home_get_info .in-te {
+        margin-top: 15px;
+        gap: 15px;
+    }
+    .home_get_info .in-te h6{
+        font-size: 19px;
+    }
+    .home_get_info p {
+        font-size: 17px;
+        margin-top: 20px;
+    }
+    .home_get_info .exp{
+        font-size: 19px;
+    }
+    .home_get_info .col-lg-5{
+        margin-top: 30px;
+    }
+    .home_get_info .exp img {
+        margin-right: 10px;
+    }
+    .three-box .col-lg-4{
+        margin-top: 20px;
+    }
+    .work_home .custom-hr{
+        width: 33%;
+    }
+    .work_home h1{
+        font-size: 40px;
+    }
+    
+    .work_home .box h4{
+        right: 25%;
+    }
+    .work_home h6 {
+        margin-top: 35px;
+        font-size: 22px;
+    }
+    .work_home p{
+        font-size: 17px;
+    }
+    .we_home .work .custom-hr {
+        width: 34%;
+    }
+    .we_home .work h1{
+        font-size: 30px;
+    }
+    .benefit-textile .custom-hr {
+        width: 21%;
+    }
+    .benefit-textile h1 {
+        font-size: 39px;
+    }
+    .benefit-textile .main-textile{
+        display: none;
+    }
+    .benefit-textile .main-bg{
+        margin-top: 20px;
+    }
+    .expo_home{
+        padding: 25px;
+    }
+    .expo_home .fea .fe-left .custom-hr {
+        width: 50%;
+    }
+    .expo_home .fea .fe-left h1{
+        font-size: 40px;
+    }
+    .expo_home .morder {
+        margin-top: 15px;
+    }
+    .expo_home .fea .fe-right p {
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .expo_home .morder .mo{
+        margin-top: 20px;
+        gap: 20px;
+    }
+    .expo_home .morder .mo .mo-tex h3 {
+        font-size: 23px;
+        margin-top: 12px;
+    }
+    .expo-inde .home_contact .con-us{
+        padding: 25px;
+    }
+    .expo-inde .home_contact{
+        margin-top: 0;
+    }
+    .expo-inde .home_contact .con-us .custom-hr {
+        width: 27%;
+    }
+    .expo-inde .home_contact .con-us h1{
+        font-size: 35px;
+    }
+    .we-work h1{
+        font-size: 34px;
+    }
+    .we-work .inner-img{
+        margin-top: 20px;
+    }
+    .we-work .inner-img h2 {
+        top: 58%;
+        left: 0%;
+        font-size: 31px;
+    }
+    .client h5{
+        font-size: 20px;
+    }
+    .client .custom-hr {
+        width: 38%;
+    }
+    .client h1{
+        font-size: 30px;
+    }
+    .testimonials.ttm-testimonial-box-view-style2 .testimonial-content blockquote{
+        margin-top: 30px;
+    }
+    .footer{
+        padding: 20px;
+    }
+    .footer .col-lg-2{
+        width: 50%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .footer h5 {
+        font-size: 21px;
+    }
+    .footer h4{
+        margin-top: 30px;
+        font-size: 18px;
+    }
+
+
+    /* -- ------------------------ About page -------------------------- -- */
+    .about-page{
+        padding: 110px 0;
+    }
+    .about-page h1{
+        font-size: 50px;
+    }
+    .about-page-sec-about{
+        margin-top: 45px;
+    }
+    .about-page-sec-about .custom-hr {
+        width: 23%;
+    }
+    .about-page-sec-about h1{
+        font-size: 28px;
+    }
+    .about-page-sec-about p{
+        font-size: 18px;
+    }
+    .about-page-sec-about .num_ab .col-lg-6{
+        margin-top: 20px;
+    }
+    .about-page-sec-about .num_ab .member .number-exp h2{
+        font-size: 43px;
+    }
+    .about-page-sec-about .side-img{
+        margin-top: 30px;
+    }
+    .get-info {
+        margin-top: 45px;
+    }
+    .get-info .get-info-desc .custom-hr{
+        width: 38%;
+    }
+    .get-info .get-info-desc h1{
+        font-size: 30px;
+    }
+    .get-info .get-info-desc p{
+        font-size: 18px;
+        padding: 0;
+        text-align: justify;
+    }
+    .vision-mission {
+        margin-top: 45px;
+    }
+    .vision-mission .vision-mission-desc h5{
+        margin-top: 30px;
+    }
+    .vision-mission .vision-mission-desc .custom-hr {
+        width: 40%;
+    }
+    .vision-mission .vision-mission-desc h1{
+        font-size: 28px;
+    }
+    .vision-mission .vision-mission-desc p{
+        font-size: 18px;
+        text-align: justify;
+    }
+    .global-player{
+        margin-top: 45px;
+        padding: 45px 0;
+    }
+    .global-player .global-desc .custom-hr {
+        width: 58%;
+    }
+    .global-player .global-box-border{
+        margin-top: 30px;
+    }
+    .building-future {
+        margin-top: 45px;
+    }
+    .building-future .custom-hr {
+        width: 57%;
+    }
+    .building-future h1{
+        font-size: 25px;
+    }
+    .building-future p{
+        font-size: 18px;
+        text-align: justify;
+    }
+    .building-future .sqaure-desc {
+        width: 58%;
+        padding: 16px 10px;
+        top: 50%;
+        left: 15%;
+    }
+    .building-future .sqaure-desc .custom-hr {
+        width: 69%;
+    }
+
+
+    /* ------------------------- about page end ------------------------- */
+
+    /* ------------------------- product page start ------------------------ */
+    .product-page{
+        padding: 110px 0;
+    }
+    .product-page h1{
+        font-size: 45px;
+    }
+    .pr-desc .desc{
+        margin-top: 50px;
+        margin-bottom: 40px;
+        text-align: start;
+    }
+    .product-item .col-lg-4{    
+        margin-top: 25px;
+    }
+    .product-item .img-desc{
+        padding: 10px;
+    }
+    .product-item .img-desc h1{
+        font-size: 40px;
+    }
+    .product-item .inner-desc {
+        padding-top: 19%;
+    }
+    .product-item .img-desc p{
+        font-size: 18px;
+    }
+    /* ------------------------- product page end ------------------------- */
+
+    /* ------------------------- contact page start ----------------------- */
+    .contact-page{
+        padding: 110px 0;
+    }
+    
+    .contact-page h1{
+        font-size: 50px;
+    }
+    .map-start .custom-hr {
+        width: 27%;
+    }
+    .inner-contact-us .loca{
+        width: 60px !important;
+    }
+    .inner-container .loca{
+        width: 60px !important;
+    }
+    .inner-contact-second{
+        padding-right: 0;
+    }
+    .contact-get .box{
+        width: auto;
+        display: block;
+    }
+    .contact-get .write{
+        width: auto;
+        padding: 10px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 16px;
+    }
+    .contact-get .write .custom-hr {
+        width: 27%;
+    }
+    .contact-get .write h3{
+        font-size: 33px;
+    }
+    .contact-get .write .white-desc{
+        font-size: 15px;
+    }
+    .contact-get .write .icon i{
+        margin-right: 6px;
+    }
+    .contact-get .book form {
+        padding-right: 0px;
+    }
+    .news-lat .latter {
+        padding: 0px;
+    }
+    .news-lat .latter .custom-hr {
+        width: 32%;
+    }    
+    .news-lat .latter .form-control{
+        padding: 15px;
+    }
+    .news-lat .latter button{
+        top: 17%;
+        right: 14px;
+    }
+    /* ------------------------- contact page end ----------------------- */
+
+}
+@media (max-width: 299px){
+    .main .small-header{
+        display: none;
+    }
+    .mankamal-header .contact-button{
+        display: none;
+    }
+}

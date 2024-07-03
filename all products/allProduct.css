@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+.rajdhani {
+  font-family: "Rajdhani", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}
+body {
+  overflow-x: hidden !important;
+}
+
+.product-page {
+  background-image: url(../images/product/product.png);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+}
+.product-page h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+/* product start */
+.product {
+  margin: 88px 0px;
+}
+.product h1 {
+  font-weight: 700;
+  margin: 0;
+  margin-top: 8px;
+}
+.product .custom-hr {
+  width: 10%;
+}
+.product .custom-hr hr {
+  margin: 0;
+  border-top: 2px solid #000000;
+  opacity: 1;
+  margin-bottom: 22px;
+}
+.product .main-img img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.product .main-img .shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.product .main-img .shine::before {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+  content: "";
+  display: block;
+  height: 100%;
+  left: -75%;
+  position: absolute;
+  top: 0;
+  transform: skewX(-25deg);
+  width: 50%;
+  z-index: 2;
+}
+
+.product .main-img .shine:hover::before,
+.product .main-img .shine:focus::before {
+  animation: shine 0.85s;
+}
+
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
+.product .bg-desc {
+  position: relative;
+  background-color: #e9e9e9;
+  padding: 22px 44px;
+  padding-left: 32px;
+}
+.product .bg-desc::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 6px; 
+  background: linear-gradient(0deg, #ba233c 0%, #532e77 100%);
+}
+.product .extra-desc {
+  padding-bottom: 12px;
+  font-size: 18px;
+}
+/* product end */
+
+/* small table start */
+.table-main {
+  margin-top: 44px;
+  margin-bottom: 88px;
+}
+/* .table-main .table-bordered th {
+  padding-left: 24px;
+}
+.table-main .table-bordered td {
+  padding-left: 24px;
+} */
+.table-main .table-bordered {
+  border: 2px solid black;
+}
+/* small table end */
+
+/* faq start */
+
+.main-accordion h2 {
+  font-weight: 800;
+  font-size: 36px;
+  padding-bottom: 16px;
+}
+.accordion {
+  .accordion-item {
+    margin-top: 22px;
+    padding: 0px 22px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 7px 0px #00000040;
+    button[aria-expanded="true"] {
+      border-bottom: 1px solid #3737373d;
+    }
+  }
+  button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: #000000;
+    font-size: 1.15rem;
+    font-weight: 600;
+    border: none;
+    background: none;
+    outline: none;
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      color: #d0202f;
+      &::after {
+        cursor: pointer;
+        color: #d0202f;
+        border: 1px solid #d0202f;
+      }
+    }
+    .accordion-title {
+      padding: 1em 1.5em 1em 0;
+    }
+    .icon {
+      display: inline-block;
+      position: absolute;
+      top: 18px;
+      right: 0;
+      width: 22px;
+      height: 22px;
+      border: 1px solid #b32340;
+      /* background-color: #b32340; */
+      background: linear-gradient(180deg, #EC1A23 0%, #5B2D72 100%);
+      &::before {
+        display: block;
+        position: absolute;
+        content: "";
+        top: 9px;
+        left: 5px;
+        width: 10px;
+        height: 2px;
+        color: white;
+        background: currentColor;
+      }
+      &::after {
+        display: block;
+        position: absolute;
+        content: "";
+        color: white;
+        top: 5px;
+        left: 9px;
+        width: 2px;
+        height: 10px;
+        background: currentColor;
+      }
+    }
+  }
+  button[aria-expanded="true"] {
+    color: #d0202f;
+    .icon {
+      &::after {
+        width: 0;
+      }
+    }
+    + .accordion-content {
+      opacity: 1;
+      max-height: -webkit-fill-available;
+      transition: all 200ms linear;
+      will-change: opacity, max-height;
+    }
+  }
+  .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+    p {
+      font-size: 1rem;
+      font-weight: 300;
+      margin: 1em 0;
+    }
+  }
+}
+/* faq end */
+
+/* contact-form start */
+.form-section .form-control {
+  border-radius: 5px;
+  padding: 12px;
+}
+
+.form-section {
+  background-color: #e9e9e9;
+  margin-bottom: 66px;
+  padding: 32px 60px;
+  margin-top: 88px;
+  border-radius: 0px;
+}
+
+.form-section .form-desc h2 {
+  font-weight: 700;
+}
+
+.form-section .form-desc p {
+  margin: 0;
+  padding-bottom: 24px;
+}
+
+.form-section .check-box {
+  padding-top: 16px;
+}
+
+.form-section .send-button {
+  background: linear-gradient(90deg, #ba233c 0%, #532e77 100%);
+  color: white;
+  transition: 1s all ease;
+  padding: 12px 24px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
+.form-section .first-part {
+  padding-bottom: 24px;
+}
+/* contact-form end */
+
+
+@media screen and (max-width: 1399px) and (min-width: 1200px){
+  .product .custom-hr hr{
+    margin-bottom: 10px;
+  }
+  .product .extra-desc {
+    padding-bottom: 0px;
+    font-size: 16px;
+  }
+  .product .bg-desc {
+    padding: 5px 26px;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1025px){
+  .product h1{
+    margin-top: 0;
+  }
+  .product .custom-hr hr{
+    margin-bottom: 10px;
+  }
+  .product .extra-desc {
+    padding-bottom: 0px;
+    font-size: 16px;
+  }
+  .product .bg-desc {
+    padding: 5px 5px;
+    padding-left: 5px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 992px){
+  .product-page {
+    padding: 160px 0;
+  }
+  .product h1{
+    margin-top: 0;
+  }
+  .product .custom-hr hr{
+    margin-bottom: 10px;
+  }
+  .product .extra-desc {
+    padding-bottom: 0px;
+    font-size: 16px;
+  }
+  .product .bg-desc {
+    padding: 5px 5px;
+    padding-left: 5px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .product-page {
+    padding: 140px 0;
+  }
+  .product h1{
+    margin-top: 30px;
+  }
+  th{
+    font-size: 15px;
+  }
+  .form-section{
+    padding: 32px;
+  }
+  .form-section .col-lg-6{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 426px) {
+  .product-page {
+    padding: 130px 0;
+  }
+  .product-page h1{
+    font-size: 60px;
+  }
+  .product {
+    margin: 50px 0px;
+  }
+  .product h1{
+    margin-top: 30px;
+  }
+  th ,td{
+    font-size: 15px;
+  }
+  .main-accordion h2{
+    font-size: 32px;
+  }
+  .form-section{
+    padding: 32px;
+  }
+  .form-section .col-lg-6{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 425px) and (min-width: 376px){
+  .product-page {
+    padding: 110px 0;
+  }
+  .product-page h1{
+    font-size: 50px;
+  }
+  .product {
+    margin: 50px 0px;
+  }
+  .product .custom-hr {
+    width: 15%;
+  }
+  .product .bg-desc {
+    padding: 17px 10px;
+    padding-left: 15px;
+  }
+  .main-accordion h2{
+    font-size: 26px;
+  }
+  .accordion {
+    button {
+        font-size: 17px;
+    }
+  }
+  .form-section{
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) and (min-width: 300px){
+  .product-page {
+    padding: 100px 0;
+  }
+  .product-page h1{
+    font-size: 45px;
+  }
+  .product {
+    margin: 50px 0px;
+  }
+  .product h1 {
+    margin-top: 40px;
+  } 
+  .product .bg-desc {
+    padding: 17px 10px;
+    padding-left: 15px;
+  }
+  .main-accordion h2{
+    font-size: 26px;
+  }
+  .accordion-item {
+    padding: 0px 10px;
+  }
+  .accordion {
+    button {
+        font-size: 15px;
+    }
+  }
+  .accordion-title {
+    padding: 10px 10px 10px 0;
+  }
+  .form-section{
+    padding: 32px 10px;
+    margin-top: 50px;
+  }
+}
