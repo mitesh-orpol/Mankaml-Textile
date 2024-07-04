@@ -931,9 +931,15 @@
     .expo-inde .home_contact .con-us h1{
         font-size: 40px;
     }
+    .expo-inde .home_contact .form{
+        margin-top: 20px;
+    }
     .we-work h1 {
         padding-right: 0px;
         font-size: 45px;
+    }
+    .we-work .custom-hr {
+        width: 28%;
     }
     .we-work .inner-img h2 {
         top: 62%;
@@ -1087,6 +1093,13 @@
     .news-lat .latter {
         padding: 0px;
     }
+    .news-lat .latter .form-control{
+        padding: 20PX;
+        margin-top: 20PX;
+    }
+    .news-lat .latter button{
+        top: 20%;
+    }
     /* ------------------------- contact page end ----------------------- */
 
 }
@@ -1235,6 +1248,9 @@
     }
     .expo-inde .home_contact .con-us h1{
         font-size: 40px;
+    }
+    .expo-inde .home_contact .form{
+        margin-top: 20px;
     }
     .we-work .custom-hr {
         width: 35%;
@@ -1579,6 +1595,9 @@
     }
     .expo-inde .home_contact .con-us h1{
         font-size: 35px;
+    }
+    .expo-inde .home_contact .form{
+        margin-top: 20px;
     }
     .we-work h1{
         font-size: 34px;
